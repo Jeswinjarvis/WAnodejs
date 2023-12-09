@@ -2,10 +2,10 @@ var express = require('express');
 var router = express.Router();
 var mysql = require('mysql');
 var con = mysql.createConnection({
-host: "localhost",
-user: "root",
-password: "",
-database: "water-authority"
+    host: 'b5qhwegqxj5v6ln5akuh-mysql.services.clever-cloud.com',
+    user: 'uaq5xlyvfasa4jbh',
+    password: 'mGmRutceIS3fNzoW0eXe',
+    database: 'b5qhwegqxj5v6ln5akuh'
 });
 router.post('/', (req, res, next) => {
 let locationid = req.body.locationid;
